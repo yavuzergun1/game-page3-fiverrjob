@@ -136,7 +136,7 @@ header {
   margin-top: 8px;
   margin-left: 40px;
 }
-.first{
+.first {
   margin-top: -3px;
 }
 .arms-left {
@@ -144,8 +144,8 @@ header {
   img {
     width: 35px;
   }
-  p{
-    font-size: .8rem;
+  p {
+    font-size: 0.8rem;
   }
 }
 .arms-right {
@@ -159,8 +159,8 @@ header {
   display: flex;
   justify-content: space-between;
   color: white;
-  span{
-    font-size: .8rem;
+  span {
+    font-size: 0.8rem;
     font-weight: 600;
   }
 }
@@ -243,35 +243,35 @@ header {
     width: 380px;
     margin-top: 5px;
   }
-  .first{
+  .first {
     margin-top: -10px;
   }
   @media (max-width: 730px) {
     header {
-    width: 550px;
-  }
-  .window{
-    width: 58%;
-  }
-   .container {
-    width: 435px;
-    height: 430px;
-    background-size: 350px;
-  }
-  .info{
-    justify-content: center;
-  }
-  .info-left{
-    width: 380px;
-    p{
-      font-size: .5rem;
+      width: 550px;
     }
-  }
-  .arms{
-    width: 75%;
-  }
-  .right-second img{
-    margin-left: -5px;
-  }
+    .window {
+      width: 58%;
+    }
+    .container {
+      width: 435px;
+      height: 430px;
+      background-size: 350px;
+    }
+    .info {
+      justify-content: center;
+    }
+    .info-left {
+      width: 380px;
+      p {
+        font-size: 0.5rem;
+      }
+    }
+    .arms {
+      width: 75%;
+    }
+    .right-second img {
+      margin-left: -5px;
+    }
   }
 }
