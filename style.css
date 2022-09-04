@@ -81,7 +81,7 @@ header .back {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 10px;
+  padding-top: 25px;
 }
 
 .container {
@@ -96,40 +96,44 @@ header .back {
   background-repeat: no-repeat;
   background-position: top;
 }
-.container .info {
-  width: 74%;
+
+.info {
+  width: 75%;
   display: flex;
-  padding-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 5px;
   margin-bottom: 10px;
   justify-content: space-between;
 }
-.container .info-left, .container .info-right {
+
+.info-left, .info-right {
   margin-top: 1px;
   padding-top: 10px;
-  width: 190px;
-  height: 60px;
+  width: 300px;
+  height: 90px;
   margin-bottom: -35px;
   background-image: url(./Assets/Rectangle\ 46.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: top;
-  transform: translate(-15px);
 }
-.container .info-left p, .container .info-right p {
+.info-left p, .info-right p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.7rem;
   font-weight: 600;
-  transform: translate(20px);
+  transform: translate(25px);
 }
-.container .info-right {
-  margin-left: -10px;
+
+.info-right {
+  margin-left: 0px;
 }
-.container .info-right p {
+.info-right p {
   padding-left: 10px;
   padding-top: 5px;
 }
-.container .arms {
+
+.arms {
   width: 70%;
   height: 75px;
   display: flex;
@@ -137,28 +141,43 @@ header .back {
   background-image: url("./Assets/Rectangle 30.png");
   background-size: 90%;
   background-repeat: no-repeat;
-  margin-top: 10px;
+  margin-top: 8px;
   margin-left: 40px;
 }
-.container .arms .arms-left {
+
+.first {
+  margin-top: -3px;
+}
+
+.arms-left {
   width: 10%;
 }
-.container .arms .arms-left img {
-  width: 40px;
+.arms-left img {
+  width: 35px;
 }
-.container .arms .arms-right {
+.arms-left p {
+  font-size: 0.8rem;
+}
+
+.arms-right {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 70%;
 }
-.container .arms .arms-right .right-first {
+
+.right-first {
   width: 80%;
   display: flex;
   justify-content: space-between;
   color: white;
 }
-.container .arms .arms-right .right-second {
+.right-first span {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.right-second {
   width: 100%;
   height: 20px;
   margin-top: 5px;
@@ -168,20 +187,21 @@ header .back {
   background-position: bottom;
   padding-left: 25px;
 }
-.container .arms .arms-right .right-second img {
+.right-second img {
   height: 20px;
 }
-.container .arms .arms-right .right-third {
+
+.right-third {
   width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.container .arms .arms-right .right-third img:first-child {
+.right-third img:first-child {
   height: 5px;
 }
-.container .arms .arms-right .right-third img:nth-child(2) {
-  height: 20px;
+.right-third img:nth-child(2) {
+  height: 15px;
 }
 
 .start-button {
@@ -203,6 +223,9 @@ header .back {
   body {
     height: auto;
   }
+  header {
+    width: 650px;
+  }
   .menu-container {
     margin-left: -105px;
     margin-right: -50px;
@@ -223,22 +246,20 @@ header .back {
     width: 69%;
     height: 430px;
     margin-top: 85px;
-    transform: translate(50px, -20px);
-    padding-top: 15px;
+    transform: translate(50px, -65px);
+    padding-top: 5px;
     justify-content: center;
   }
   .container {
-    width: 425px;
+    width: 525px;
     height: 430px;
-    background-size: 75%;
+    background-size: 400px;
   }
-}
-@media (max-width: 945px) and (max-width: 730px) {
-  .window {
-    width: 58%;
+  .arms {
+    width: 380px;
+    margin-top: 5px;
   }
-  .container {
-    width: 500px;
-    background-size: 320px;
+  .first {
+    margin-top: -10px;
   }
 }/*# sourceMappingURL=style.css.map */
