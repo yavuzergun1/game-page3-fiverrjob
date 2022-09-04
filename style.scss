@@ -65,111 +65,54 @@ body {
   align-items: flex-start;
   padding-top: 20px;
 }
-.close {
-  transform: translate(120px, 10px);
-  width: 20px;
-  height: 20px;
-  margin-bottom: 20px;
-}
+
 .container {
-  width: 410px;
-  height: 460px;
+ width: 100%;
+ height: 480px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-image: url(./assets/Rectangle\ 45.png);
-  background-size: 88%;
+  background-image: url(./Assets/Rectangle\ 16.png);
+  background-size: 75%;
   background-repeat: no-repeat;
   background-position: top;
+  padding-top: 5px;
+  .info{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-bottom: -30px;
+  }
+  .info-left, .info-right{
+    img{
+      width: 90%;
+    }
+  }
+   .arms{
+width: 80%;
+display: flex;
+justify-content: center;
+      img{
+      width: 80%;
+      }
+    }
 }
-.first {
-  width: 300px;
-  margin-top: 15px;
+
+
+.start-button{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-}
-.first-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  width: 90%;
-  p {
+  cursor: pointer;
+  p{
     position: relative;
-    z-index: 2;
-    bottom: 10px;
-    font-size: 0.7rem;
-    text-align: left;
-    padding-left: 28px;
+    bottom: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
   }
 }
-.open-button {
-  position: relative;
-  right: 25px;
-  bottom: 5px;
-  z-index: 1;
-  color: white;
-  font-size: 0.7rem;
-  img {
-    width: 55px;
-    position: relative;
-    z-index: 1;
-  }
-  span {
-    position: relative;
-    z-index: 2;
-    left: 43px;
-    bottom: 5px;
-  }
-}
-.black {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  transform: translate(0px, -38px);
-  z-index: 0;
-
-  img {
-    width: 90%;
-  }
-}
-.endsin {
-  padding: 4px;
-  position: relative;
-  z-index: 1;
-  bottom: 75px;
-  width: 90px;
-  border: solid 1px black;
-}
-.white {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 76px;
-
-  .white-text{
-    position: absolute;
-    width: 180px;
-    height: 65px;
-  }
-}
-.second{
-  @extend .first;
-}
-.ninja{
-  position: relative;
-  left: 61px;
-  width: 30px;
-  height: 32px;
-}
-.third{
-  @extend .first;
-  margin-top: -15px;
-}
-
-
 @media (max-width: 945px) {
   body {
     height: auto;
@@ -209,10 +152,15 @@ body {
   }
 
   .first{
-    margin-top: 5px;
+  }
+  .second{
+
   }
   .third{
-    margin-top: -25px;
+
+  }
+  .fourth{
+
   }
   @media (max-width: 730px) {
    .window{
