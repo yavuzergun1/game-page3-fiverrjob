@@ -224,7 +224,7 @@ header .back {
     height: auto;
   }
   header {
-    width: 650px;
+    width: 600px;
   }
   .menu-container {
     margin-left: -105px;
@@ -236,14 +236,14 @@ header .back {
   .menu {
     width: 250px;
     background-size: 250px;
-    margin-left: 50px;
+    margin-left: 85px;
     padding-top: 70px;
   }
   .menu img {
     margin-bottom: 20px;
   }
   .window {
-    width: 69%;
+    width: 63%;
     height: 430px;
     margin-top: 85px;
     transform: translate(50px, -65px);
@@ -261,5 +261,30 @@ header .back {
   }
   .first {
     margin-top: -10px;
+  }
+}
+@media (max-width: 945px) and (max-width: 730px) {
+  header {
+    width: 550px;
+  }
+  .window {
+    width: 58%;
+  }
+  .container {
+    width: 435px;
+    height: 430px;
+    background-size: 350px;
+  }
+  .info {
+    justify-content: center;
+  }
+  .info-left, .info-right {
+    width: 380px;
+  }
+  .info-left p, .info-right p {
+    font-size: 0.5rem;
+  }
+  .arms {
+    width: 75%;
   }
 }/*# sourceMappingURL=style.css.map */
