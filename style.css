@@ -287,4 +287,7 @@ header .back {
   .arms {
     width: 75%;
   }
+  .right-second img {
+    margin-left: -5px;
+  }
 }/*# sourceMappingURL=style.css.map */
