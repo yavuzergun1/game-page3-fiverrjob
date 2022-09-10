@@ -141,6 +141,7 @@ header .back {
   background-image: url("./Assets/Rectangle 30.png");
   background-size: 90%;
   background-repeat: no-repeat;
+  color: white;
   margin-top: 8px;
   margin-left: 40px;
 }
@@ -266,6 +267,13 @@ header .back {
 @media (max-width: 945px) and (max-width: 730px) {
   header {
     width: 550px;
+  }
+  .menu-container {
+    margin-left: -140px;
+    margin-right: -50px;
+  }
+  .menu-container img {
+    margin-left: 70px;
   }
   .window {
     width: 58%;
