@@ -57,7 +57,7 @@ header .back {
   height: 500px;
   width: 350px;
   background-repeat: no-repeat;
-  background-image: url("/assets/menu-img.png");
+  background-image: url("/Assets/menu-img.png");
   background-size: 280px;
   display: flex;
   flex-direction: column;
