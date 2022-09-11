@@ -182,10 +182,7 @@ header .back {
   width: 100%;
   height: 20px;
   margin-top: 5px;
-  background-image: url(./Assets/Rectangle\ 27-1.png);
   background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: bottom;
   padding-left: 25px;
 }
 .right-second img {
@@ -200,9 +197,11 @@ header .back {
 }
 .right-third img:first-child {
   height: 5px;
+  cursor: pointer;
 }
 .right-third img:nth-child(2) {
   height: 15px;
+  cursor: pointer;
 }
 
 .start-button {
